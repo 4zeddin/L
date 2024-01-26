@@ -1,0 +1,27 @@
+// variables
+var / int,string,.. / dynamic / final / const / 
+String? name; declares a variable named name that can hold a reference to a String or null.
+// List
+var list = [];
+list.add(42);
+list.addAll(42,22,34);
+list.insert(0.23);
+list.addAll(0,[22,34]);
+list.remove(22);
+list.removeAt(0);
+// objects
+var obj = {"s":"c"}
+...
+obj.clear();
+// funcs
+myFunc(String name) {
+    return "sddq $name";
+}
+// convert
+a="1";
+int.parse(a);
+double.parse();
+a=1;
+a.toString();
+// get user input
+var name = stdin.readLineSync();

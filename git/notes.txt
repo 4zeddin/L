@@ -1,0 +1,13 @@
+git clone url
+git commit -am "m"  ==> add * commit
+git push
+git pull
+git log
+git reset --hard commitHash
+------------------------------------------
+git checkout -b newBranch
+git checkout master
+git merge newBranch
+------------------------------------------
+touche file.py => create file 
+ls
